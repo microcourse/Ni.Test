@@ -18,7 +18,6 @@ namespace Ni.Tests
             var result = await service.AnalyzeAsync(DataSourceName.StackOverflow);
 
             Assert.True(result.Length > 0);
-
         }
 
         [Fact]
